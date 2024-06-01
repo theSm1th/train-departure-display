@@ -1,0 +1,31 @@
+{
+    "general": {
+        "targetFPS": 70,
+        "refreshTime": 180,
+        "fpsTime": 180,
+        "screenRotation": 2,
+        "screenBlankHours": "",
+        "headless": "False",
+        "debug": "False",
+        "dualScreen": "False",
+        "firstDepartureBold": "True",
+        "hoursPattern": "^((2[0-3]|[0-1]?[0-9])-(2[0-3]|[0-1]?[0-9]))$",
+        "showDepartureNumbers": "False"
+},
+
+    "journey": {
+        "departureStation": "PAD",
+        "destinationStation": "",
+        "individualStationDepartureTime": "False",
+        "outOfHoursName": "London Paddington",
+        "stationAbbr": {"International": "Intl."},
+        "timeOffset": "0",
+        "screen1Platform": "",
+        "screen2Platform": ""
+    },
+
+    "api": {
+        "apiKey": "",
+        "operatingHours": ""
+    }
+}
