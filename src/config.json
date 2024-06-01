@@ -9,22 +9,23 @@
         "debug": "False",
         "dualScreen": "False",
         "firstDepartureBold": "True",
-        "hoursPattern": "^((2[0-3]|[0-1]?[0-9])-(2[0-3]|[0-1]?[0-9]))$"
-    },
+        "hoursPattern": "^((2[0-3]|[0-1]?[0-9])-(2[0-3]|[0-1]?[0-9]))$",
+        "showDepartureNumbers": "False"
+},
 
     "journey": {
-        "departureStation": "station",
-        "destinationStation": "station",
+        "departureStation": "PAD",
+        "destinationStation": "",
         "individualStationDepartureTime": "False",
         "outOfHoursName": "London Paddington",
         "stationAbbr": {"International": "Intl."},
-        "timeOffset": 0,
-        "screenOnePlatform": "",
-        "screenTwoPlatform": ""
+        "timeOffset": "0",
+        "screen1Platform": "",
+        "screen2Platform": ""
     },
 
     "api": {
-        "apiKey": "key",
-        "operatingHours": ","
+        "apiKey": "",
+        "operatingHours": ""
     }
 }
